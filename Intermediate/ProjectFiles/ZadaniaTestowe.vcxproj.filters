@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ZadaniaTestowe.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6AC4F758-EF9E-4229-B827-DA713947B5C4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ZadaniaTestowe.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ZadaniaTestoweEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{501888B3-87CD-4337-B68F-29C6D94E821A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ZadaniaTestowe">
+      <UniqueIdentifier>{ABDF405D-DBBD-43F4-9E70-0A83A4063AD7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ZadaniaTestowe\ZadaniaTestowe.Build.cs">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ZadaniaTestowe\ZadaniaTestowe.cpp">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZadaniaTestowe\ZadaniaTestowe.h">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ZadaniaTestowe\ZadaniaTestoweCharacter.cpp">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZadaniaTestowe\ZadaniaTestoweCharacter.h">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ZadaniaTestowe\ZadaniaTestoweGameMode.cpp">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZadaniaTestowe\ZadaniaTestoweGameMode.h">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ZadaniaTestowe\Lamp.h">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ZadaniaTestowe\Destroypack.h">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ZadaniaTestowe\Lamp.cpp">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ZadaniaTestowe\Destroypack.cpp">
+      <Filter>Source\ZadaniaTestowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
